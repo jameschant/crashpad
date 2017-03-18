@@ -17,6 +17,9 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 // Navbar styles
 
 .navbar-default {
@@ -55,3 +58,15 @@
   z-index: -1;
 }
 
+.home-properties-card {
+  text-align: center;
+}
+
+.well p {
+  margin-top: 10px;
+}
+
+.let {
+  color: white;
+  opacity: 0.5;
+}
