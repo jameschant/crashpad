@@ -25,12 +25,17 @@
   border: none;
 }
 
+.navbar-blue {
+  background-color: #56CCF2;
+  border: none;
+}
+
 .navbar-brand {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand, .navbar-blue .navbar-brand {
   color: white;
 }
 

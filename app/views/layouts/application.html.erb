@@ -10,7 +10,11 @@
   </head>
 
   <body>
-    <div class="navbar navbar-default">
+    <% if current_page?(root_path) %>
+      <div class="navbar navbar-default">
+    <% else %>
+      <div class="navbar navbar-blue">
+    <% end %>
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
