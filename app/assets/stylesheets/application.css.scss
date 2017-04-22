@@ -35,8 +35,13 @@
   font-weight: 700;
 }
 
-.navbar-default .navbar-brand, .navbar-blue .navbar-brand, .navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-brand, .navbar-blue .navbar-brand, .navbar-default .navbar-nav > li > a, .navbar-blue .navbar-nav > li > a {
   color: white;
+}
+
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+   color: #333;
+   background-color: transparent;
 }
 
 // Homepage styles
